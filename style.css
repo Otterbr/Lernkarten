@@ -1,0 +1,70 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #242526;
+	color: #E4E6EB;
+}
+.kopf {
+	background: #3A3B3C;
+}
+.kopf td{
+	padding: 6px 6px 6px 6px;
+	width: 40%;
+	text-align: center;
+}
+#frage {
+	width: 100%;
+}
+.info {
+	height: 700px;
+	text-align: center;
+}
+#antwort {
+	white-space: normal;
+	text-align: center;
+	resize: none;
+	overflow: auto;
+	outline: none;
+	font-size: 70px; 
+	padding: 300px 0;
+	background-color: #121212;
+	color: white;
+	border: none;
+}
+.buttonbereich button{
+	width: 100%;
+	height: 70px;
+	background-color: #2966E7;
+	color: white;
+	border: none;
+}
+.buttonbereich button:hover {
+	background-color: #082C6C;
+	color: white;
+	border: none;
+}
+#neu {	width:70px;}
+#neu:hover {
+	cursor: alias;
+}
+#koBtn:hover {
+	cursor: help;
+}
+#feedback {
+	height: 60px;
+	visibility: hidden;	
+}
+#korrekt {
+	text-align: center;
+	color: #F6D862;
+}
+#korrekttxt {
+	color: white;
+}
+#quelle {
+	visibility: hidden;
+}
+.falsch {
+	padding: 6px;
+	background-color: #F6D862;
+	color: black;
+}
